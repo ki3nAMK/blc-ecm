@@ -1,0 +1,52 @@
+apiVersion: v1
+port: 3000
+isProd: false
+prefix: api
+version: v1
+publicUrl: http://localhost:3000
+
+blockchain:
+  rpcUrl: http://127.0.0.1:8545
+  # Private key of the on-chain admin/relayer account (a Hardhat test account when running locally).
+  adminPrivateKey: "0xYOUR_ADMIN_PRIVATE_KEY"
+  # Filled in with the addresses printed by `npx hardhat run scripts/deploy.js --network localhost`
+  # in ecommerce-smart-contract.
+  erc1155Address: "0xYOUR_ERC1155_ADDRESS"
+  escrowAddress: "0xYOUR_ESCROW_ADDRESS"
+  airdropAddress: "0xYOUR_AIRDROP_ADDRESS"
+
+verificationPath:
+  register: /auth/verify-register
+  resetPassword: /auth/verify-reset-password
+
+verificationExpiresIn:
+  register: 3600
+  resetPassword: 3600
+
+redis:
+  host: localhost
+  port: 6379
+  password: ""
+  database: 0
+  prefix: "blc:"
+
+jwt:
+  accessTokenExpiresIn: 3600
+  refreshTokenExpiresIn: 604800
+
+mongo:
+  uri: mongodb://localhost:27017
+  username: ""
+  password: ""
+  port: 27017
+  database: pizza
+
+redisLock:
+  driftFactor: 0.01
+  retryJitter: 200
+  retryCount: 10
+  retryDelay: 200
+
+server:
+  # Arbitrary long random string used to sign/verify internal service-to-service requests.
+  masterKey: "CHANGE_ME_TO_A_RANDOM_STRING"
