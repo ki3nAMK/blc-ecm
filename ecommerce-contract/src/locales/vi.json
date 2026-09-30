@@ -1,0 +1,64 @@
+{
+  "header": {
+    "searchPlaceholder": "Tìm sản phẩm, thương hiệu...",
+    "needHelp": "Cần trợ giúp?",
+    "loginWithMetamask": "Đăng nhập bằng MetaMask"
+  },
+  "announcement": {
+    "freeShipping": "Miễn phí vận chuyển cho đơn hàng trên $50",
+    "summerSale": "Sale Hè 2025: Giảm đến 70%",
+    "newArrivals": "Hàng mới mỗi tuần"
+  },
+  "home": {
+    "heroTitle": "Sale Hè 2025",
+    "shopNow": "Mua ngay",
+    "featuredProducts": "Sản phẩm nổi bật",
+    "allProducts": "Tất cả sản phẩm ({{count}})",
+    "filters": "Bộ lọc",
+    "category": "Danh mục",
+    "allCategories": "Tất cả danh mục",
+    "priceRange": "Khoảng giá",
+    "stock": "Tồn kho",
+    "clearFilters": "Xóa bộ lọc",
+    "latestProducts": "Sản phẩm mới nhất",
+    "newArrivals": "Hàng mới về",
+    "latestFromBlog": "Bài viết mới nhất",
+    "viewAll": "Xem tất cả",
+    "flashSale": "Flash Sale",
+    "trustedShops": "Shop uy tín",
+    "trustedShopsQuoteFallback": "Chất lượng bạn có thể tin tưởng, mỗi ngày.",
+    "viewShop": "Xem shop",
+    "ethUsdTitle": "ETH / USD",
+    "ethUsdSubtitle": "7 ngày qua · trực tiếp từ CoinGecko"
+  },
+  "footer": {
+    "tagline": "Điểm đến lý tưởng cho giày sneaker và thời trang đường phố cao cấp. Chất lượng, phong cách và sự thoải mái trong từng bước chân.",
+    "quickLinks": "Liên kết nhanh",
+    "customerCare": "Chăm sóc khách hàng",
+    "followUs": "Theo dõi chúng tôi",
+    "stayUpdated": "Cập nhật tin tức",
+    "newsletterText": "Đăng ký để nhận ưu đãi độc quyền và hàng mới về!",
+    "emailPlaceholder": "Email của bạn",
+    "subscribe": "Đăng ký",
+    "copyright": "© 2025 SHOEZ. Bảo lưu mọi quyền.",
+    "links": {
+      "home": "Trang chủ",
+      "shop": "Cửa hàng",
+      "newArrivals": "Hàng mới về",
+      "sale": "Khuyến mãi",
+      "shops": "Tất cả Shop",
+      "aboutUs": "Giới thiệu",
+      "contactUs": "Liên hệ",
+      "shippingInfo": "Thông tin vận chuyển",
+      "returns": "Đổi trả",
+      "sizeGuide": "Hướng dẫn chọn size",
+      "faqs": "Câu hỏi thường gặp"
+    }
+  },
+  "common": {
+    "addToCart": "Thêm vào giỏ",
+    "viewDetails": "Xem chi tiết",
+    "outOfStock": "Hết hàng",
+    "lowStock": "Sắp hết hàng"
+  }
+}

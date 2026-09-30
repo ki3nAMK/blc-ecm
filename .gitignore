@@ -1,0 +1,81 @@
+# dependencies
+**/node_modules
+
+# environment variables (secrets)
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+**/config.yml
+
+# build output
+**/dist
+**/build
+**/.next
+**/.swc
+**/_static
+**/out
+
+# Hardhat
+**/cache
+**/artifacts
+**/typechain
+**/typechain-types
+ignition/deployments/chain-31337
+
+# test coverage
+**/coverage
+**/coverage.json
+**/.nyc_output
+
+# uploaded / runtime data (not source)
+ecommerce-contract-api/uploads
+ecommerce-contract-api/data
+**/data/mongo
+
+# logs
+**/logs
+**/*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# this project's own run script output
+.run-logs/
+
+# OS / editor
+**/.DS_Store
+**/.idea
+**/.vscode/*
+!**/.vscode/settings.json
+!**/.vscode/tasks.json
+!**/.vscode/launch.json
+!**/.vscode/extensions.json
+**/.project
+**/.classpath
+**/.c9/
+**/*.launch
+**/.settings/
+**/*.sublime-workspace
+**/.eslintcache
+**/.unimportedrc.json
+**/tsconfig.tsbuildinfo
+**/.pnp
+**/.pnp.js
+**/.vercel
+**/.netlify
+
+# temp / runtime
+**/.temp
+**/.tmp
+**/pids
+**/*.pid
+**/*.seed
+**/*.pid.lock
+.claude/
+
+# JWT signing keys (real secrets)
+**/secure/*_private.key

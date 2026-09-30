@@ -1,0 +1,64 @@
+{
+  "header": {
+    "searchPlaceholder": "Search products, brands...",
+    "needHelp": "Need help?",
+    "loginWithMetamask": "Login with MetaMask"
+  },
+  "announcement": {
+    "freeShipping": "Free Shipping on orders over $50",
+    "summerSale": "Summer Sale 2025: Up to 70% OFF",
+    "newArrivals": "New Arrivals Every Week"
+  },
+  "home": {
+    "heroTitle": "Summer Sale 2025",
+    "shopNow": "Shop Now",
+    "featuredProducts": "Featured Products",
+    "allProducts": "All Products ({{count}})",
+    "filters": "Filters",
+    "category": "Category",
+    "allCategories": "All Categories",
+    "priceRange": "Price Range",
+    "stock": "Stock",
+    "clearFilters": "Clear Filters",
+    "latestProducts": "Latest products",
+    "newArrivals": "New Arrivals",
+    "latestFromBlog": "Latest from the Blog",
+    "viewAll": "View all",
+    "flashSale": "Flash Sale",
+    "trustedShops": "Trusted Shops",
+    "trustedShopsQuoteFallback": "Quality you can trust, every time.",
+    "viewShop": "View shop",
+    "ethUsdTitle": "ETH / USD",
+    "ethUsdSubtitle": "Last 7 days · live from CoinGecko"
+  },
+  "footer": {
+    "tagline": "Your ultimate destination for premium sneakers and streetwear. Quality, style, and comfort in every step.",
+    "quickLinks": "Quick Links",
+    "customerCare": "Customer Care",
+    "followUs": "Follow Us",
+    "stayUpdated": "Stay Updated",
+    "newsletterText": "Subscribe to get exclusive offers and new drops!",
+    "emailPlaceholder": "Your email",
+    "subscribe": "Subscribe",
+    "copyright": "© 2025 SHOEZ. All rights reserved.",
+    "links": {
+      "home": "Home",
+      "shop": "Shop",
+      "newArrivals": "New Arrivals",
+      "sale": "Sale",
+      "shops": "All Shops",
+      "aboutUs": "About Us",
+      "contactUs": "Contact Us",
+      "shippingInfo": "Shipping Info",
+      "returns": "Returns",
+      "sizeGuide": "Size Guide",
+      "faqs": "FAQs"
+    }
+  },
+  "common": {
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "outOfStock": "Out of Stock",
+    "lowStock": "Low Stock"
+  }
+}
